@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'lib-features',
+  selector: 'lib-meal-detail',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './features.component.html',
-  styleUrl: './features.component.css',
+  template: `<p>meal-detail works!</p>`,
+  styles: ``,
 })
-export class FeaturesComponent {}
+export class MealDetailComponent {}
